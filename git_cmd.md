@@ -16,3 +16,16 @@
     git reset --hard HEAD^  回滚到上个版本
 ## git checkout -- f_n
     撤销本次对 f_n 文件的操作
+## git init  --bare f_n.git
+  创建一个空的仓库
+## sudo  chown -R git:git f_n.git/
+    把Git仓库的所有者修改为git
+## git remote add f_n ssh://255.255.255.255/hone/././.
+    添加远端仓库
+## git remote set-url  f_n ssh://255.255.255.255./home/./.
+    修改远端仓库地址
+## git push f_n master
+    推送到远端仓库
+## git clone ssh:git@255.255.25.255:/home/./.
+    克隆远端仓库的内容    
+    
