@@ -49,7 +49,7 @@
     修改远端仓库地址
 ## git push 远程仓库名 master
     推送到远端仓库
-## git clone ssh:git@255.255.25.255:/home/./.
+## git clone ssh://git@255.255.25.255:/home/./.
     克隆远端仓库的内容    
 ## git fetch 仓库名
     下载本地与远程不同的部分 ，但并不合并
