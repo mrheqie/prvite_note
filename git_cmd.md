@@ -1,11 +1,11 @@
 # **use_cmd_base**
  <br>
 
-## git init 
+ ##  git init 
     新建一个仓库
     --bare  新建裸仓库 没有文件目录
     --shared 新建的仓库可写
-##  git add f_n
+ ##  git add f_n
     添加fn文件到暂存区
 ## git commit -m 'description'
     将暂存区的内容提交到版本库中 单引号内为这次提交的描述     
@@ -33,6 +33,12 @@
     \*    通配符
 ## git mv f_n1 f_n2
     重命名文件
+
+## git config --global user.name "hebing-y9000x"
+    配置用户名
+## git config --global user.email "434631138@qq.com"
+    配置邮箱
+
  <br>
 
 # **use_cmd_remote**
