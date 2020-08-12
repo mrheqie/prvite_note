@@ -34,6 +34,12 @@
     \\*    通配符
 *  **git mv f_n1 f_n2**  
     重命名文件
+
+*  **git config --global user.name "hebing-y9000x"**  
+    配置用户名
+* **git config --global user.email "434631138@qq.com"**  
+    配置邮箱
+
  <br>
 
 # **use_cmd_remote**
@@ -57,6 +63,7 @@
     克隆远端仓库的内容     
 *  **git fetch 仓库名**  
     下载本地与远程不同的部分 ，但并不合并  
+
  <br>
 
 # **use_cmd_branch**
