@@ -40,5 +40,12 @@
     2. DCD (配置信息，用于初始化一些基本的外设)
 
 
+# make语句
+* **make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf-**
+
+
+
+
+
 
 
