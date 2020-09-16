@@ -40,6 +40,9 @@
 * **git config --global user.email "434631138@qq.com"**  
     配置邮箱
 
+* **git status --ignore-submodules=dirty**  
+    忽略脏的子模块
+
  <br>
 
 # **use_cmd_remote**
