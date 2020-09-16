@@ -53,9 +53,9 @@
     -v 查看远程仓库的地址  
 *  **git remote show 远程仓库名**  
     查看远程仓库的详细信息  
-*  **git remote add f_n ssh://255.255.255.255/hone/././.**  
+*  **git remote add f_n ssh://git@255.255.255.255/hone/././.**  
     添加远端仓库
-*  **git remote set-url  f_n ssh://255.255.255.255./home/./**  
+*  **git remote set-url  f_n ssh://git@255.255.255.255./home/./**  
     修改远端仓库地址
 * **git push 远程仓库名 master**  
     推送到远端仓库  
