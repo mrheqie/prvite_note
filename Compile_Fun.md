@@ -1,3 +1,12 @@
+#   Install
+
+* **sudo apt install gcc-arm-linux-gnueabihf**  
+    安装ARM交叉编译工具
+* **sudo apt install libc6-dev-i386**  
+    安装ARM交叉编译工具依赖
+*   **arm-linux-gnueabihf-gcc -v**  
+    查看ARM交叉编译工具版本
+<br>
 # makefile关键字
 
 * **$^**  

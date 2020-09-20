@@ -1,3 +1,9 @@
+- [**use_cmd_base**](#use_cmd_base)
+- [**use_cmd_remote**](#use_cmd_remote)
+- [**use_cmd_branch**](#use_cmd_branch)
+- [**file_parse**](#file_parse)
+  
+
 # **use_cmd_base**
  <br>    
 
@@ -42,6 +48,9 @@
 
 * **git status --ignore-submodules=dirty**  
     忽略脏的子模块
+
+*   **sudo git branch -D master**
+    删除主分支
 
  <br>
 
