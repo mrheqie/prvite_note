@@ -69,6 +69,8 @@
     添加远端仓库
 *  **git remote set-url  f_n ssh://git@255.255.255.255./home/./**  
     修改远端仓库地址
+* **git pull**    
+    从远端仓库拉取最新
 * **git push 远程仓库名 master**  
     推送到远端仓库  
 *  **git clone ssh:git@255.255.25.255:/home/./.**  

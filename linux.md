@@ -31,3 +31,7 @@ subtree_check)**
         挂载NFS远端目录到本地 
 *   **sudo umount /mnt**  
         取消挂载
+
+* **ssh connect**
+    ssh hebing@255.255.255.255  
+
