@@ -32,6 +32,6 @@ subtree_check)**
 *   **sudo umount /mnt**  
         取消挂载
 
-* **ssh connect**
+* **ssh connect**  
     ssh hebing@255.255.255.255  
 

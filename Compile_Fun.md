@@ -10,7 +10,11 @@
 # makefile关键字
 
 * **$^**  
-    指所有的依赖文件
+    指所有的依赖文件  
+* **$<**  
+    All .o files depend on the corresponding .c files   
+* **＄＠**  
+    refers to the target  
 
 # gcc 编译选项
 * **-g**  
@@ -49,11 +53,24 @@
     2. DCD (配置信息，用于初始化一些基本的外设)
 
 
-# make语句
-* **make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf-**
 
 
+# make syntax
+*   **make cmd**  
+   make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf-
 
+* **Add prefix**  
+    $(addprefix fixstring,string1 string2 ...)  
+* **wildcard**  
+    $(wildcard *.c) means all of current directory '.c' files  
+* **VPATH**   
+    Example :  VPATH = src:../headers 
+    Equivalent to a global path , the content of in this directory can be used everywhere
+* **vpath**  
+  Example : vpath  %.c  foo:bar  
+　　　　　vpath  %  blish  
+all of the match files  in specified directory
+ 
 
 
 
