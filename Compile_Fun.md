@@ -70,7 +70,10 @@
   Example : vpath  %.c  foo:bar  
 　　　　　vpath  %  blish  
 all of the match files  in specified directory
- 
+* **Static Pattern Rules**  
+    targets .... : target-parttern : prereq-partterns...  
+                    recipe  
+                    ........  
 
 
 
