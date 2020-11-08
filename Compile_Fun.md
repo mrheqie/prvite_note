@@ -76,17 +76,75 @@ all of the match files  in specified directory
                     ........  
 
 * **Defining Canned Recipes**
-~~~
+    ~~~
     define v_name = 
     ...
     ....
     endef
-~~~
+    ~~~
   
 
 *  ** The Falgs Not Pass Down by MAKEFLAGS**
-~~~
+    ~~~
             -C , -f , -o , -W
-~~~
+    ~~~
+
+# make FUNCTION
+
+* **$(subst from,to,text)**
+    ~~~
+    replace  "from" by "to" in text 
+    ~~~
+* $(patsubst pattern , replacement , text)
+    ~~~
+        finds whitespace-separated words in text that match pattern and replaces them with replacement
+    example:
+        $(patsubst  %.c , %.o  x.c.c  bar.c)
+        result "x.c.o  bar.o"
+     simple way:
+        $(var : pattern = replacement)
+        example  :
+        obj = foo.o bar.o baz.o
+        $(obj : .0 = .c)
+        result "foo.c bar.c baz.c"
+    ~~~
+* $(strip string)
+    ~~~
+        removes leading and tailing white-space from string and replace each internal sequence of one or more whilte-space characters with a single whilte-space
+        example:
+            $(strip a      b c     )
+            means "a b c"
+    ~~~
+* $(findstring find in)
+    ~~~
+
+    ~~~
+* $(filter pattern... ,text)
+    ~~~
+    removing any words that do not match
+    ~~~
+* $(filter-out pattern... , text)
+    ~~~
+    return that do not match any of the pattern words
+    ~~~
+
+* $(sort list)
+    ~~~
+        Sorts the words of list in lexical order and removing duplicate words
+    ~~~ 
+* $(words text)
+    ~~~
+    return the number of words in text
+    ~~~
 
 
+
+
+
+
+
+
+
+
+
+  
