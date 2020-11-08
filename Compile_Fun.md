@@ -138,6 +138,44 @@ all of the match files  in specified directory
     ~~~
 
 
+* $(dir names....)
+    ~~~
+        Extracts the directory-part of each file name in names
+    ~~~
+* $(notdir names...)
+    ~~~
+        Extracts all but the dircetory-part of each file name in names
+    ~~~
+* $(suffix names...)
+    ~~~
+        Extracts the suffix of each file name in names
+    ~~~
+* $(basename names...)
+    ~~~
+    Extracts all but the suffix of each file name in names ( maybe include dir ) 
+    ~~~
+* $(addsuffix suffix , names...)
+    ~~~
+        The  value of suffix is appebded to the end of each individual name
+    ~~~
+* $(addprefix prefix , names....)
+    ~~~
+        The value of prefix is prepended to the front of each individual name
+    ~~~
+* $(join list1 , list2)
+    ~~~
+        Concaten one by one the content of  list1 and list2
+    ~~~
+* $(wildcard pattern)
+    ~~~
+    return a list of the name of existing files that match the pattern
+    ~~~
+* $(realpath names...)
+    ~~~
+    For each file name in names return the canonical absolute name
+    ~~~
+
+
 
 
 
