@@ -75,6 +75,18 @@ all of the match files  in specified directory
                     recipe  
                     ........  
 
+* **Defining Canned Recipes**
+~~~
+    define v_name = 
+    ...
+    ....
+    endef
+~~~
+  
 
+*  ** The Falgs Not Pass Down by MAKEFLAGS**
+~~~
+            -C , -f , -o , -W
+~~~
 
 
