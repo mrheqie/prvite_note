@@ -174,8 +174,22 @@ all of the match files  in specified directory
     ~~~
     For each file name in names return the canonical absolute name
     ~~~
-
-
+* $(if condition , then-part [ , else-part])
+    ~~~
+    if the condition is true  "then-part" evaluated and returned ,otherwise,  "else-part" evaluated and returned
+    ~~~
+* $(or condition1 [ , condition2 [ ,condition3...]])
+    ~~~
+    The first non-empty condition will be returned
+    ~~~
+* $(and condition1 [ , condition2 [ ,condition3...]])
+    ~~~
+    if one of condition is empty string then it will be returned , otherwise , return the last condition
+    ~~~
+* $(foreach var , list , text)
+    ~~~
+    Take out  the value in "list" one by one and the value of "var" is set to that value,expand the "text" ,presumably "text" contains the reference of "var",then expand the "var" in "text" 
+    ~~~
 
 
 
