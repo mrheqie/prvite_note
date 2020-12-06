@@ -3,7 +3,24 @@
 
 * **rm -rf  文件**  
     递归删除
+* **authority**
+```
+    linux uses 5 numbers to indicate variousl permissions 
+     first num : set user id
+     second num : set group id
+     third num : indicate user permissons
+     fourth num : indicate group permissons
+    fifth num : indicate others permmissons
 
+    num first bit : execution authority
+    num second bit : write authority
+    num third bit : read authority
+
+    example :
+     00777 means that  all users are authorized to write,read and execute permissions
+      
+
+```
 # NFS  
 
 *   **sudo apt install nfs-kernel-server**  
@@ -31,7 +48,32 @@ subtree_check)**
         挂载NFS远端目录到本地 
 *   **sudo umount /mnt**  
         取消挂载
-
+# SSH
 * **ssh connect**  
     ssh hebing@255.255.255.255  
 
+# MODULE
+* **install module** 
+```
+    insmod   ./hello.ko
+```
+* **uninstall module**
+```
+    rmmod   hello
+```
+* **view all module**
+  ```
+    lsmod
+  ```
+* **install module and its dependencises**
+```
+    modprobe
+```  
+* **unstall modeule and its dependencises**
+```
+    modprobe -r < filename>
+```
+* **get info about  a module**
+```
+    modinfo < modname>
+```

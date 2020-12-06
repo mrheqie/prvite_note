@@ -7,15 +7,18 @@
 *   **arm-linux-gnueabihf-gcc -v**  
     查看ARM交叉编译工具版本
 <br>
-# makefile关键字
+# makefile Automatic Variables
 
 * **$^**  
-    指所有的依赖文件  
+    The name of  all the prerequisites 
 * **$<**  
-    All .o files depend on the corresponding .c files   
+    The name of the first prerquisites
 * **＄＠**  
     refers to the target  
-
+    the file name of target of the rule
+* **$?**  
+    The names of the prerequisites that are newer than the target  
+* ****
 # gcc 编译选项
 * **-g**  
     生成GDB调试信息
