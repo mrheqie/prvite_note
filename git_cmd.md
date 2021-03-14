@@ -34,6 +34,8 @@
     创建一个空的仓库
 *  **sudo  chown -R git:git f_n.git/**  
     把Git仓库的所有者修改为git
+* **git log --graph --oneline**
+    打印log
 *  **git rm**  
     从仓库中移除文件但本地保留  
     --cached f_n  从仓库中移除但本地保留  
