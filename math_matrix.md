@@ -29,3 +29,42 @@
    通过原点的直线
 * **Span{u,v}**
    通过原点的平面
+
+* **matrix  equation Ax = b**  
+   ```  
+                                       |x1|
+                                       |x2|
+   Ax =[a1,a2,...an]* |....| = x1 * a1 + x2 * a2..... xn*an
+                                       |xn|
+
+   ```    
+ ### Solution set of linear equations  
+* homogeneous equation  **Ax = 0**  
+  ```   
+  x  =  tv
+  x = su +  tv
+  ```   
+* nonhomogeneous  equation  **Ax = b** 
+   ```  
+   x = p + tv
+
+   ```  
+
+##  linear combination  
+      ( 线性组合 )   
+      y = c1v1 + ....... +cpyp  
+
+ ## linearly dependent ( vectors )  
+     线性相关  
+   x1v1 + x2v2 + ... + xpvp = 0  不仅有平凡解  
+   列数大于行数时 这个向量组线性相关  
+   包含 0 向量          这个向量组线性相关  
+
+ ## linearly independent(vectors)  
+      线性无关  
+      x1v1 + x2v2 + ... + xpvp = 0  仅有平凡解  
+      增广矩阵 行化简后 没有自由变量  
+
+## linear  transformation T  
+      线性变换
+      T :  Rn -> Rm   
