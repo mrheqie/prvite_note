@@ -29,24 +29,26 @@
     查看用户id
 * **sudo vim /etc/exports**  
     打开NFS配置文件
-*   **mkdir  /home/embedfire/workdir**  
+*   **mkdir  /home/hebing/nfs**  
     创建共享目录
-*   **/home/embedfire/workdir 192.168.0.0/24(rw,sync,all_squash,anonuid=998,anongid=998,no_
+*   **/home/hebing/nfs 192.168.31.*(rw,sync,all_squash,anonuid=998,anongid=998,no_
 subtree_check)**
     NFS配置语句，将此句写入exports文件内
 *   **sudo exportfs -arv**
     更新exports配置
 *   **showmount -e** 
     查看NFS服务器的加载情况  
-<br>
+* **sudo service nfs-kernel-server restart**
+    重启NFS服务
 <br>  
-*   **sudo apt install nfs-common -y**  
+<br>    
+*  **sudo apt install nfs-common -y**  
     安装NFS客户端
 *   **showmount -e 192.168.0.219  **  
     查看远端NFS共享目录  
-*   **sudo mount -t nfs 192.168.0.219:/home/embedfire/workdir /mnt**  
+*   **sudo mount -t nfs 192.168.31。189:/home/hebing /nfs   /home/hebing/c_nfs  
         挂载NFS远端目录到本地 
-*   **sudo umount /mnt**  
+*   **sudo umount /home/hebing/c_nfs  
         取消挂载
 # SSH
 * **ssh connect**  
