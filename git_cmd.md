@@ -76,6 +76,7 @@
 * **git push 远程仓库名 master**  
     推送到远端仓库  
 *  **git clone ssh:git@255.255.25.255:/home/./.**  
+    **git clone git@192.168.31.189:/home/hebing/git_repos/note_repo/note.git**
     克隆远端仓库的内容     
 *  **git fetch 仓库名**  
     下载本地与远程不同的部分 ，但并不合并  
