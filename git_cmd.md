@@ -75,12 +75,10 @@
     从远端仓库拉取最新
 * **git push 远程仓库名 master**  
     推送到远端仓库  
-*  **git clone ssh:git@255.255.25.255:/home/./.**  
+* **git clone git@192.168.31.189:/home/hebing/git_repos/note_repo/note.git**
     克隆远端仓库的内容     
 *  **git fetch 仓库名**  
     下载本地与远程不同的部分 ，但并不合并  
-*  **git branch --set-upstream-to=mBox/master master**  
-    设置默认远程仓库
 
  <br>
 
@@ -111,5 +109,3 @@
     *.[oa ] 忽略所有以.o和.a结尾的文件  
      *~ 忽略以~为结尾的文件  
     builld/  忽律build目录下的文件
-    
-
