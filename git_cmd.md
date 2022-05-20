@@ -79,6 +79,8 @@
     克隆远端仓库的内容     
 *  **git fetch 仓库名**  
     下载本地与远程不同的部分 ，但并不合并  
+*  **git branch --set-upstream-to=mBox/master master**  
+    设置默认远程仓库
 
  <br>
 
