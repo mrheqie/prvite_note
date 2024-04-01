@@ -1,7 +1,7 @@
-- [**use_cmd_base**](#use_cmd_base)
-- [**use_cmd_remote**](#use_cmd_remote)
-- [**use_cmd_branch**](#use_cmd_branch)
-- [**file_parse**](#file_parse)
+- [**use\_cmd\_base**](#use_cmd_base)
+- [**use\_cmd\_remote**](#use_cmd_remote)
+- [**use\_cmd\_branch**](#use_cmd_branch)
+- [**file\_parse**](#file_parse)
   
 
 # **use_cmd_base**
@@ -79,7 +79,11 @@
     克隆远端仓库的内容     
 *  **git fetch 仓库名**  
     下载本地与远程不同的部分 ，但并不合并  
-
+* 切换默认远端仓库地址
+```
+git config branch.master.remote 远端地址 远端别明
+git config branch.master.merge refs/heads/master
+```
  <br>
 
 # **use_cmd_branch**
