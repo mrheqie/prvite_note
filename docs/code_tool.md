@@ -1,4 +1,4 @@
-- vim
+# vim
 	- ## learnin notes
 	- ### cmd mode
 		- del single char : x
