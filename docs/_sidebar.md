@@ -1,2 +1,2 @@
 
-* [工具](code_tool)
+* [工具](/code_tool.md)
