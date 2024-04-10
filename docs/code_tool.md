@@ -1,6 +1,6 @@
 # vim
-	- ## learnin notes
-	- ### cmd mode
+- ## learnin notes
+- ### cmd mode
 		- del single char : x
 		- del single line : dd
 		- cpy single line : yy
@@ -23,7 +23,7 @@
 		- cancle high light word : nohls
 		- jump to char    : f + char
 	-
-- # understand
+# understand
 - ### 下载：
   understand下载：
   [Scitools Licensing | Download Understand](https://licensing.scitools.com/download/thanks/Windows-64bit.exe)
