@@ -19,8 +19,8 @@
     example :
      00777 means that  all users are authorized to write,read and execute permissions
       
-
 ```
+
 # NFS
 
 *   **sudo apt install nfs-kernel-server**  
