@@ -44,12 +44,14 @@ subtree_check)**
 <br>    
 *  **sudo apt install nfs-common -y**  
     安装NFS客户端
-*   **showmount -e 192.168.0.219  **  
+*  **showmount -e 192.168.0.219**  
     查看远端NFS共享目录  
-*   **sudo mount -t nfs 192.168.31。189:/home/hebing /nfs   /home/hebing/c_nfs  
-        挂载NFS远端目录到本地 
-*   **sudo umount /home/hebing/c_nfs  
-        取消挂载
+*   **sudo mount -t nfs 192.168.31.189:/home/hebing /nfs   /home/hebing/c_nfs**
+   
+    挂载NFS远端目录到本地 
+*   **sudo umount /home/hebing/c_nfs**
+
+    取消挂载
 # SSH
 
 * **ssh connect**  
