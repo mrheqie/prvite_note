@@ -21,7 +21,7 @@
       
 
 ```
-# NFS  
+# NFS
 
 *   **sudo apt install nfs-kernel-server**  
     安装NFS服务
@@ -51,10 +51,12 @@ subtree_check)**
 *   **sudo umount /home/hebing/c_nfs  
         取消挂载
 # SSH
+
 * **ssh connect**  
     ssh hebing@255.255.255.255  
 
 # MODULE
+
 * **install module** 
 ```
     insmod   ./hello.ko
@@ -64,9 +66,9 @@ subtree_check)**
     rmmod   hello
 ```
 * **view all module**
-  ```
+```
     lsmod
-  ```
+```
 * **install module and its dependencises**
 ```
     modprobe
